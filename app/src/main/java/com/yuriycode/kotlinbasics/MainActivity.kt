@@ -9,7 +9,7 @@ import com.yuriycode.kotlinbasics.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding:ActivityMainBinding
-    lateinit var navController:NavController
+    lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState)

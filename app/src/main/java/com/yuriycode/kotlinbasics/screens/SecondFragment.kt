@@ -27,4 +27,5 @@ class SecondFragment : Fragment() {
             MAIN.navController.navigate(R.id.action_secondFragment_to_firstFragment)
         }
     }
+
 }
