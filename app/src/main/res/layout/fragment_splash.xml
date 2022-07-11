@@ -22,10 +22,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#C82626"
-        android:progressTint="#B51717"
+        android:progressTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

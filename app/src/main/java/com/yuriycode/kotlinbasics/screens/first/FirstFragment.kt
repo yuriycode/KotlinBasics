@@ -1,4 +1,4 @@
-package com.yuriycode.kotlinbasics.screens
+package com.yuriycode.kotlinbasics.screens.first
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
