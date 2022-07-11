@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.yuriycode.kotlinbasics.screens.FirstFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.first.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
@@ -16,12 +16,15 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.yuriycode.kotlinbasics.screens.SecondFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.second.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
             android:id="@+id/action_secondFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
@@ -32,4 +35,18 @@
             android:id="@+id/action_splashFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.third.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_fourthFragment"
+            app:destination="@id/fourthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.fourth.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
 </navigation>
