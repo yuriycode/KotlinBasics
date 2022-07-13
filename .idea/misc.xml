@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KotlinBasics/app/src/main/res/drawable/ic_favorite.xml" value="0.2895" />
+        <entry key="..\:/KotlinBasics/app/src/main/res/drawable/ic_home.xml" value="0.2895" />
+        <entry key="..\:/KotlinBasics/app/src/main/res/drawable/ic_search.xml" value="0.2895" />
         <entry key="..\:/KotlinBasics/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
         <entry key="..\:/KotlinBasics/app/src/main/res/layout/fragment_first.xml" value="0.358695652173913" />
+        <entry key="..\:/KotlinBasics/app/src/main/res/layout/fragment_fourth.xml" value="0.19473684210526315" />
         <entry key="..\:/KotlinBasics/app/src/main/res/layout/fragment_second.xml" value="0.35260416666666666" />
         <entry key="..\:/KotlinBasics/app/src/main/res/layout/fragment_splash.xml" value="0.2077922077922078" />
+        <entry key="..\:/KotlinBasics/app/src/main/res/layout/fragment_third.xml" value="0.19121447028423771" />
+        <entry key="..\:/KotlinBasics/app/src/main/res/menu/menu_navigation_view.xml" value="0.365625" />
       </map>
     </option>
   </component>

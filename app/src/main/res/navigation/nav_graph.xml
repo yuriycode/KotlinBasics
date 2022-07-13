@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/splashFragment">
+    app:startDestination="@id/firstFragment">
 
     <fragment
         android:id="@+id/firstFragment"
@@ -22,14 +22,22 @@
         <action
             android:id="@+id/action_secondFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
     </fragment>
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.yuriycode.kotlinbasics.screens.SplashFragment"
-        android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" >
+        android:id="@+id/thirdFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
         <action
-            android:id="@+id/action_splashFragment_to_firstFragment"
-            app:destination="@id/firstFragment" />
+            android:id="@+id/action_thirdFragment_to_fourthFragment"
+            app:destination="@id/fourthFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
 </navigation>

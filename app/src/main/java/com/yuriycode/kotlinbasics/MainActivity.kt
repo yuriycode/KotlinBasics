@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.Navigation
+import androidx.navigation.ui.setupWithNavController
 import com.yuriycode.kotlinbasics.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,5 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         MAIN = this
         navController = Navigation.findNavController(this, R.id.nav_host_fragment)
+        binding.bottomNavView.setupWithNavController(navController)
+
     }
 }
