@@ -1,4 +1,4 @@
-package com.yuriycode.kotlinbasics.screens
+package com.yuriycode.kotlinbasics.screens.splash
 
 import android.content.Intent
 import android.os.Bundle

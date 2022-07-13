@@ -6,47 +6,38 @@
     app:startDestination="@id/splashFragment">
 
     <fragment
-        android:id="@+id/firstFragment"
+        android:id="@+id/item_1"
         android:name="com.yuriycode.kotlinbasics.screens.first.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            app:destination="@id/item_2" />
     </fragment>
     <fragment
-        android:id="@+id/secondFragment"
+        android:id="@+id/item_2"
         android:name="com.yuriycode.kotlinbasics.screens.second.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
             android:id="@+id/action_secondFragment_to_firstFragment"
-            app:destination="@id/firstFragment" />
+            app:destination="@id/item_1" />
         <action
             android:id="@+id/action_secondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/item_3" />
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.yuriycode.kotlinbasics.screens.SplashFragment"
+        android:name="com.yuriycode.kotlinbasics.screens.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_firstFragment"
-            app:destination="@id/firstFragment" />
+            app:destination="@id/item_1" />
     </fragment>
     <fragment
-        android:id="@+id/thirdFragment"
+        android:id="@+id/item_3"
         android:name="com.yuriycode.kotlinbasics.screens.third.ThirdFragment"
         android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
-        <action
-            android:id="@+id/action_thirdFragment_to_fourthFragment"
-            app:destination="@id/fourthFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/fourthFragment"
-        android:name="com.yuriycode.kotlinbasics.screens.fourth.FourthFragment"
-        android:label="fragment_fourth"
-        tools:layout="@layout/fragment_fourth" />
+        tools:layout="@layout/fragment_third" />
 </navigation>
